@@ -39,6 +39,7 @@ public class ApplicationContext {
         registerBean();
         //4.注入属性
         dependenceInjection();
+        //5.注入属性后执行初始化方法 todo
     }
 
     /**
