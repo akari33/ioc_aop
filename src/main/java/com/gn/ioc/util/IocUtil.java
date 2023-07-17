@@ -1,4 +1,4 @@
-package com.gn.util;
+package com.gn.ioc.util;
 
 import java.io.IOException;
 import java.io.InputStream;

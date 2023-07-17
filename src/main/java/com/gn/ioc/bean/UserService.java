@@ -1,7 +1,7 @@
-package com.gn.bean;
+package com.gn.ioc.bean;
 
-import com.gn.anotation.Autowired;
-import com.gn.anotation.Component;
+import com.gn.ioc.anotation.Autowired;
+import com.gn.ioc.anotation.Component;
 
 @Component
 public class UserService {

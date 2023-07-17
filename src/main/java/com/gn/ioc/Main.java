@@ -1,7 +1,7 @@
-package com.gn;
+package com.gn.ioc;
 
-import com.gn.bean.UserService;
-import com.gn.util.ApplicationContext;
+import com.gn.ioc.bean.UserService;
+import com.gn.ioc.util.ApplicationContext;
 
 public class Main {
     public static void main(String[] args) {

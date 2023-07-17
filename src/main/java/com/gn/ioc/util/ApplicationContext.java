@@ -1,7 +1,7 @@
-package com.gn.util;
+package com.gn.ioc.util;
 
-import com.gn.anotation.Autowired;
-import com.gn.anotation.Component;
+import com.gn.ioc.anotation.Autowired;
+import com.gn.ioc.anotation.Component;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -39,7 +39,7 @@ public class ApplicationContext {
         registerBean();
         //4.注入属性
         dependenceInjection();
-        //5.注入属性后执行初始化方法 todo
+        //5.执行初始化方法 todo
     }
 
     /**

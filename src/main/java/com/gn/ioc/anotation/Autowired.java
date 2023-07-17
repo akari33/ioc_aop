@@ -1,4 +1,4 @@
-package com.gn.anotation;
+package com.gn.ioc.anotation;
 
 import java.lang.annotation.*;
 
